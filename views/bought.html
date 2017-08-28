@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a ui-sref="home" class="navbar-brand"><span class="glyphicon glyphicon-cloud myIcon" aria-hidden="true"></span>MIST</a>
+    </div>
+    <ul class="nav navbar-nav navbar-left navItems">
+    </ul>
+    <ul class="nav navbar-nav navbar-right navItems">
+      <li><a ui-sref="home"><span class="glyphicon glyphicon-pawn myIcon" aria-hidden="true"></span>Games</a> </li>
+      <li><a ui-sref="store"><span class="glyphicon glyphicon-shopping-cart myIcon" aria-hidden="true"></span>Store</a> </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle settings" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ validatedUser.userName }} <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <div class="avatarBackground">
+            <img src="{{ validatedUser.profilePic }}" class="dropdown-header">
+          </div>
+          <li><a ui-sref="editUsers({id: {{ validatedUser.id }} })">Edit Profile</a></li>
+          <li><a ui-sref="home">Add Funds</a></li>
+        </ul>
+        <li><a ui-sref="users"><span class="glyphicon glyphicon-off myIcon" aria-hidden="true"></span>Sign Out</a> </li>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ui-sref="gamesShow({id: game.gameId })" -->
+<div class="gameDisplay">
+  <h1 class="boughtName text-center">{{ game.gameName }}</h1>
+  <img src="{{ game.gameImage }}" class=" boughtImg">
+  <p class="boughtDescription text-center"><strong>Description: </strong>{{ game.gameDescription }}</p>
+  <button ng-click="backFromCart()" class="btn btn-primary boughtButton pull-right">Back</button>
+
+
+</div>

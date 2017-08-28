@@ -1,0 +1,45 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a ui-sref="home" class="navbar-brand"><span class="glyphicon glyphicon-cloud myIcon" aria-hidden="true"></span>MIST</a>
+    </div>
+    <ul class="nav navbar-nav navbar-left navItems">
+    </ul>
+    <ul class="nav navbar-nav navbar-right navItems">
+      <li><a ui-sref="home"><span class="glyphicon glyphicon-pawn myIcon" aria-hidden="true"></span>Games</a> </li>
+      <li><a ui-sref="store"><span class="glyphicon glyphicon-shopping-cart myIcon" aria-hidden="true"></span>Store</a> </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle settings" data-toggle="dropdown"><span class="glyphicon glyphicon-user myIcon" aria-hidden="true"></span>{{ validatedUser.userName }} <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <div class="avatarBackground">
+            <img src="{{ validatedUser.profilePic }}" class="dropdown-header">
+          </div>
+          <li><a ui-sref="editUsers({id: {{ validatedUser.id }} })">Edit Profile</a></li>
+          <li><a ui-sref="home">Add Funds</a></li>
+        </ul>
+        <li><a ui-sref="users"><span class="glyphicon glyphicon-off myIcon" aria-hidden="true"></span>Sign Out</a> </li>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container gutter col-md-3">
+  <h1 class="text-center">My Games</h1>
+  <div class="col-md-9">
+    <input type="text" ng-model="search" placeholder="Search for a game..." class="searchBarGame">
+  </div>
+  <ul class="gameItems text-center">
+    <li ng-repeat="game in games | filter : search" ng-show="{{ game.purchased }}"><a ui-sref="gamesShow({id: game.gameId })">{{ game.gameName }}</a></li>
+  </ul>
+</div>
+<div class="gameDisplay col-md-9">
+  <div ng-show="{{ game }}">
+    <!-- <div ng-show="gamePicked"> -->
+    <h1 class="gameName text-center">{{ game.gameName }}</h1>
+    <img src="{{ game.gameImage }}" class=" gameImg">
+    <p class="gameDescription"><strong>Description: </strong>{{ game.gameDescription }}</p>
+    <button ui-sref="{{ game.gameSource }}" class="btn btn-lrg btn-info pull-right gamePlay">Play Now!</button>
+  </div>
+
+
+</div>

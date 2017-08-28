@@ -1,0 +1,53 @@
+<SCRIPT LANGUAGE="JavaScript">
+  // <!-- 
+  var display_text  = "Sadly, Denmark is an unlikely place "
+  + "to find gray elephants and orange kangaroos!  "
+  + "     There are more cool stuff like this "
+  + "throughout my site!  Check 'em out!!!!!!!!!!"
+  var display_text; var place; var meter; 
+  var out = " "; var place = 50;
+  function scroll_text(){
+  for (meter = 0; meter < place; meter++){
+  out += " "
+  }
+  if (place >= 0)
+  out += display_text
+  else out = display_text.substring(-place,display_text.length)
+  document.scroll_form.field.value = out
+  out = " "
+  place--
+  if (place < -(display_text.length)){
+  place = 50
+  }
+  setTimeout('scroll_text()',100)
+  }
+  // -->
+  </SCRIPT> 
+
+<CENTER>
+  <TT>Please follow the instructions below carefully. Go through each step first before pressing the below button, or you'll only ruin everything!
+  <P>
+  <OL>
+  <LI>Think of a number between 1 and 10.<P>
+  <LI>Multiply the number by 9.<P>
+  <LI>Add the digits of your result.<P>
+  <LI>Subtract 5 from your new number.<P>
+  <LI>Find the letter that corresponds to your number, if 1 = A, 2 = B, 3 = C, etc.<P>
+  <LI>Think of a country that begins with your letter.<P>
+  <LI>Write down the name of that country.<P>
+  <LI>Think of an animal beginning with the second letter of your country.<P>
+  <LI>Think of the color of that animal.<P>
+  <LI>Write down the animal and its color.<P>
+  <LI>Think of an animal that begins with the last letter of your country.<P>
+  <LI>Think of a fruit that begins with the last letter of this second animal.<P>
+  <LI>Write down the fruit and the animal.<P>
+  </OL>
+  <P>
+  <P>
+  When you are finished, touch analyze...
+  <FORM name="scroll_form">
+  <input type="button" name="button_one" value="Analyze..." onClick="scroll_text()">
+  <input type="text" name="field" size="50"><p>
+  </form>
+  </CENTER>
+  

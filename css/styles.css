@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Shaneal */
+
+.title {
+    font-size: 80px;
+     color: white;
+}
+
+.newuser-heading {
+    padding: 50px 0px 50px 20px;
+
+}
+
+.background {
+    background-image: url("https://images.gr-assets.com/hostedimages/1483273770ra/21596535.gif"); 
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+.login-logo {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.login-box {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.login-button , .createuser-button {
+    margin-right: 15px;
+    width: 150px;
+    
+}
+
+.searchBar {
+    width: 100%;
+}
+
+.sign-up {
+    padding-left: 16px;
+}
+
+.valid {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+.store-card {
+    border: 1px black solid;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #282828;
+}
+
+.storeCardHeader {
+    padding: 10px;
+    color: white;
+    height: 130px;
+    margin-top: -20px;
+}
+
+.storeCardImage {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    margin-left: 34px;
+}
+
+.storeCardButton {
+    margin-top: 21px;
+}
+
+.cartButton {
+    margin-top: 10px;
+    float: right;
+}
+
+/* Chance */
+
+.navbar {
+    height: 60px;
+}
+
+.navbar-inverse .navbar-text {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.navbar-nav>li>a {
+    line-height: 27px;
+    color: white;
+}
+.navItems {
+    color: white;
+    font-size: 20px;
+}
+
+.navItems p {
+    margin-left: 30px;
+}
+
+.myIcon {
+    margin-right: 10px;
+}
+
+.avatarBackground {
+    background-color: #000000;
+}
+.dropdown-header {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.gutter {
+    background-color: gray;
+    height: 1600px;
+    margin-top: -21px;
+}
+.gameItems {
+    list-style: none;
+}
+
+.gameItems a {
+    color: white;
+    font-size: 30px;   
+}
+
+.searchBar {
+    margin: 10px 0 30px 90px;
+    
+}
+
+.gameDisplay {
+    background-color:#454242;
+    height: 1600px;
+    margin-top: -21px;
+}
+
+.gameName {
+    color: white;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.gameImg {
+    width: 600px;
+    height: 350px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+.gameDescription {
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.gamePlay {
+    padding: 10px 20px;
+    margin-right: 30px;
+    margin-top: 20px
+}
+
+.storegameimage {
+    height: 150px;
+    width: 150px;
+}
+
+.view-cart {
+    border: 1px black solid;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #282828;
+}
+
+.cartImage {
+    height: 100px;
+    width: 200px;
+}
+
+.cartHeader {
+    margin-top: -5px;
+}
+
+.cartDescription {
+    color: white;
+    font-size: 19px;
+}
+
+.cartButton {
+    float: right;
+    margin-right: 10px;
+}
+
+.cartRemove {
+    margin-top: 21px;
+}
+
+.boughtName {
+    color: white;
+    font-size: 80px;
+}
+
+.boughtImg {
+    width: 600px;
+    height: 350px;
+    margin: 30px 0 30px 320px;
+}
+
+.boughtDescription {
+    color: white;
+    font-size: 25px;
+}
+
+.boughtButton {
+    padding: 10px 20px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.searchBarGame {
+    margin: 10px 0 30px 50px;
+}
+
+.pickgameheader {
+    font-size: 100px;
+}
+
+.pickgameparagraph {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.snakebackground {
+    background-color: black;
+}
+
+#myCanvas {
+    background-color: white;
+    margin-left: 315px;
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 0,
+        "userName": "b00oo00m3r4ng",
+        "firstName": "Shaneal",
+        "lastName": "Prasad",
+        "email": "shanealp@uci.edu",
+        "password": "shaneal",
+        "profilePic": "https://static-resource.np.community.playstation.net/avatar/3RD/30004.png"
+    },
+    {
+        "id": 1,
+        "userName": "XxCHAKA_CHAKAxX",
+        "firstName": "Chance",
+        "lastName": "Hernandez",
+        "email": "chanceh@uci.edu",
+        "password": "chance",
+        "profilePic": "http://www.psnleaderboard.com/images/avatars/E0004.png"
+    }
+
+]

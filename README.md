@@ -1,1 +1,2 @@
-# Sample README documentation
+#MIST
+<img src="./images/home.png">

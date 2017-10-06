@@ -12,7 +12,7 @@ Mist is a game engine where users are able to buy and play games.
 | JavaScript   |
 | AngularJS    |
 
-<img src="./images/home.png">
+<img src="./images/done.png">
 
 <h2>Team: Shaneal Prasad and Chance Hernandez</h2>
 

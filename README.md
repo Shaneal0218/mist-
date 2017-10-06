@@ -1,13 +1,21 @@
 <img src="./images/home.png">
-<img src="./images/homepage.png">
-<img src="./images/store.png">
-<img src="./images/cart.png">
-<img src="./images/playnow.png">
-<img src="./images/gamestart.png">
 
+<h1>Mist</h1>
 
-#Mist is a game engine where users are able to buy and play games.
+Mist is a game engine where users are able to buy and play games.
 
-#Team: Shaneal Prasad and Chance Hernandez
+| Technologies |
+|-------------:|
+| HTML         |
+| CSS          |
+| Bootstrap    |
+| JavaScript   |
+| AngularJS    |
 
-#Technologies Used: HTML, CSS, JavaScript, AngularJS
+<img src="./images/home.png">
+
+<h2>Team: Shaneal Prasad and Chance Hernandez</h2>
+
+<h3>1 week sprint</h3>
+
+Technologies Used: HTML, CSS, JavaScript, AngularJS
